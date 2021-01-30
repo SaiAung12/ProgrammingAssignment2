@@ -1,7 +1,7 @@
-## The following twe functions, ma
-## functions do
+## The following two functions is for matrix inversion with cache.
+## This is for programming assignment 2 of R Programming.
 
-## Write a short comment describing this function
+## Creating matrix and return
 
 makeCacheMatrix <- function(x = matrix()) {
         i <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Get the input and return if it's in cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
